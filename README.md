@@ -18,6 +18,12 @@ wasm-tools parse hello.wat -o hello.wasm
 cargo run
 ```
 
+## Running wasm in js
+
+```sh
+node src/main.js
+```
+
 ## References
 
 - [wasmtime](https://github.com/bytecodealliance/wasmtime)
